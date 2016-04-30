@@ -15,8 +15,8 @@
 		83C9ED481CD4F2A50046D93B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83C9ED461CD4F2A50046D93B /* LaunchScreen.storyboard */; };
 		83C9ED531CD4F2A50046D93B /* LTYStatusBarHUDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C9ED521CD4F2A50046D93B /* LTYStatusBarHUDTests.m */; };
 		83C9ED5E1CD4F2A50046D93B /* LTYStatusBarHUDUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C9ED5D1CD4F2A50046D93B /* LTYStatusBarHUDUITests.m */; };
-		83C9ED6F1CD4F3970046D93B /* LTYStatusBarHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 83C9ED6C1CD4F3970046D93B /* LTYStatusBarHUD.bundle */; };
-		83C9ED701CD4F3970046D93B /* LTYStatusBarHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C9ED6E1CD4F3970046D93B /* LTYStatusBarHUD.m */; };
+		83C9ED7B1CD4FE900046D93B /* LTYStatusBarHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 83C9ED781CD4FE900046D93B /* LTYStatusBarHUD.bundle */; };
+		83C9ED7C1CD4FE900046D93B /* LTYStatusBarHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C9ED7A1CD4FE900046D93B /* LTYStatusBarHUD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,9 +53,9 @@
 		83C9ED591CD4F2A50046D93B /* LTYStatusBarHUDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LTYStatusBarHUDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		83C9ED5D1CD4F2A50046D93B /* LTYStatusBarHUDUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTYStatusBarHUDUITests.m; sourceTree = "<group>"; };
 		83C9ED5F1CD4F2A50046D93B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		83C9ED6C1CD4F3970046D93B /* LTYStatusBarHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = LTYStatusBarHUD.bundle; sourceTree = "<group>"; };
-		83C9ED6D1CD4F3970046D93B /* LTYStatusBarHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTYStatusBarHUD.h; sourceTree = "<group>"; };
-		83C9ED6E1CD4F3970046D93B /* LTYStatusBarHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTYStatusBarHUD.m; sourceTree = "<group>"; };
+		83C9ED781CD4FE900046D93B /* LTYStatusBarHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = LTYStatusBarHUD.bundle; sourceTree = "<group>"; };
+		83C9ED791CD4FE900046D93B /* LTYStatusBarHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTYStatusBarHUD.h; sourceTree = "<group>"; };
+		83C9ED7A1CD4FE900046D93B /* LTYStatusBarHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTYStatusBarHUD.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,7 +106,7 @@
 		83C9ED371CD4F2A50046D93B /* LTYStatusBarHUD */ = {
 			isa = PBXGroup;
 			children = (
-				83C9ED6B1CD4F3970046D93B /* LTYStatusBarHUD */,
+				83C9ED771CD4FE900046D93B /* LTYStatusBarHUD */,
 				83C9ED3B1CD4F2A50046D93B /* AppDelegate.h */,
 				83C9ED3C1CD4F2A50046D93B /* AppDelegate.m */,
 				83C9ED3E1CD4F2A50046D93B /* ViewController.h */,
@@ -146,14 +146,15 @@
 			path = LTYStatusBarHUDUITests;
 			sourceTree = "<group>";
 		};
-		83C9ED6B1CD4F3970046D93B /* LTYStatusBarHUD */ = {
+		83C9ED771CD4FE900046D93B /* LTYStatusBarHUD */ = {
 			isa = PBXGroup;
 			children = (
-				83C9ED6C1CD4F3970046D93B /* LTYStatusBarHUD.bundle */,
-				83C9ED6D1CD4F3970046D93B /* LTYStatusBarHUD.h */,
-				83C9ED6E1CD4F3970046D93B /* LTYStatusBarHUD.m */,
+				83C9ED781CD4FE900046D93B /* LTYStatusBarHUD.bundle */,
+				83C9ED791CD4FE900046D93B /* LTYStatusBarHUD.h */,
+				83C9ED7A1CD4FE900046D93B /* LTYStatusBarHUD.m */,
 			);
-			path = LTYStatusBarHUD;
+			name = LTYStatusBarHUD;
+			path = ../../LTYStatusBarHUD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,7 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				83C9ED481CD4F2A50046D93B /* LaunchScreen.storyboard in Resources */,
-				83C9ED6F1CD4F3970046D93B /* LTYStatusBarHUD.bundle in Resources */,
+				83C9ED7B1CD4FE900046D93B /* LTYStatusBarHUD.bundle in Resources */,
 				83C9ED451CD4F2A50046D93B /* Assets.xcassets in Resources */,
 				83C9ED431CD4F2A50046D93B /* Main.storyboard in Resources */,
 			);
@@ -293,7 +294,7 @@
 				83C9ED401CD4F2A50046D93B /* ViewController.m in Sources */,
 				83C9ED3D1CD4F2A50046D93B /* AppDelegate.m in Sources */,
 				83C9ED3A1CD4F2A50046D93B /* main.m in Sources */,
-				83C9ED701CD4F3970046D93B /* LTYStatusBarHUD.m in Sources */,
+				83C9ED7C1CD4FE900046D93B /* LTYStatusBarHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -519,6 +520,7 @@
 				83C9ED641CD4F2A50046D93B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		83C9ED651CD4F2A50046D93B /* Build configuration list for PBXNativeTarget "LTYStatusBarHUDTests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +529,7 @@
 				83C9ED671CD4F2A50046D93B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		83C9ED681CD4F2A50046D93B /* Build configuration list for PBXNativeTarget "LTYStatusBarHUDUITests" */ = {
 			isa = XCConfigurationList;
@@ -535,6 +538,7 @@
 				83C9ED6A1CD4F2A50046D93B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
