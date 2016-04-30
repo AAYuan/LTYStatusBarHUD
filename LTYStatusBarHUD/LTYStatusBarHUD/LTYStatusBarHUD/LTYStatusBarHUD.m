@@ -4,7 +4,6 @@
 //
 //  Created by AYuan on 16/3/25.
 //  Copyright © 2016年 AYuan. All rights reserved.
-//  1.2.6 3.4.5 1.10.23 大版本号.功能更新版本号.BUG修复版本号
 //
 
 #import "LTYStatusBarHUD.h"
@@ -68,11 +67,6 @@ static NSTimer *timer_;
     button.titleEdgeInsets = UIEdgeInsetsMake(0, 10, 0, 0);
     button.titleLabel.font = [UIFont systemFontOfSize:12];
     [window_ addSubview:button];
-    
-    //定时消失
-//    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-//        [self hide];
-//    });
     
     //定时器(调用定时器的schedule方法会自动添加到runloop中去并启动)
     [NSTimer scheduledTimerWithTimeInterval:LTYMessageDuration target:self selector:@selector(hide) userInfo:nil repeats:NO];

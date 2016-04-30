@@ -2,7 +2,7 @@
 //  AppDelegate.m
 //  LTYStatusBarHUD
 //
-//  Created by AYuan on 16/4/30.
+//  Created by AYuan on 16/3/25.
 //  Copyright © 2016年 AYuan. All rights reserved.
 //
 
