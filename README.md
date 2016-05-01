@@ -15,7 +15,7 @@ Coding all properties of model in one line code.
 /**
  * 显示普通信息
  * @param msg    显示文字
- * @param image  自定义图片,如果下面其他的接口则显示的是我提供的图片
+ * @param image  自定义图片,如果使用下面其他的接口则显示的是我提供的图片
  */
 + (void)showMessage:(NSString *)msg image:(UIImage *)image;
 
